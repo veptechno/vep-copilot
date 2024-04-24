@@ -41,6 +41,6 @@ object OpenAiClient {
         result.choices.first().message.content
     }
 
-    const val PROXY_URL = "<url>"
-    const val AUTH_TOKEN = "<token>"
+    const val PROXY_URL = "https://ai-proxy.caila.io/"
+    const val AUTH_TOKEN = "..."
 }
